@@ -78,11 +78,11 @@ var re = /\Dcar/gm;
 		console.log(re.test(str1));
 
 
-// 	Write a regex to 
+// 	Write a regex to to match on "car" should not match car in cartoon
 
-		var re = /learn/;
+		var re = /\bcar\b/gm;
 
-		var str1 = ' ';
+		var str1 = ' I have a car. It is a beautiful car. He is watching cartoon.';
 
 		console.log(re.test(str1));
 
