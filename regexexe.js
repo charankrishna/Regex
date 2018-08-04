@@ -112,4 +112,5 @@ var re = /\Dcar/gm;
 		console.log(re.test(str1)); 
 
 
-		
+
+// 	Write 
