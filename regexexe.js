@@ -86,9 +86,18 @@ var re = /\Dcar/gm;
 
 		console.log(re.test(str1));
 
+// 	Write regex to match all spaces in string but not characters
 
-		var re = /learn/;
+	1)	var re = /\s/gm;
 
-		var str1 = ' ';
+		var str1 = ' This is test string	  with a tab and spaces';
 
 		console.log(re.test(str1));
+
+	2)  var re = /\s/;
+
+		var str1 = ' This is test string	  with a tab and spaces';
+
+		console.log(re.test(str1));	
+
+		Ans: Matchs only first space in the string 
