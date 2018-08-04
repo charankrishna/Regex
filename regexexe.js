@@ -68,7 +68,17 @@ var re = /\Dcar/gm;
 			 b) g modifier: global. All matches (don't return after first match)	
 
 		
-// 
+//  Write a regex to match "." in given string
+
+		
+		var re = /[.]/gm;
+
+		var str1 = 'I have a pen. This pen is very good. Do you have a pen?  ';
+
+		console.log(re.test(str1));
+
+
+// 	Write a regex to 
 
 		var re = /learn/;
 
