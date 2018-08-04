@@ -47,7 +47,7 @@ var re = /\Dcar/gm;
 		
 // 	Write a regex to match "?""
 
-		var re = /[?]/;
+		var re = /[?]/g;
 
 		var str1 = 'I have a pen. This pen is very good. Do you have a pen?  ';
 
@@ -55,6 +55,26 @@ var re = /\Dcar/gm;
 
 		
 
+//  Write a regex to check what will happen if we give /./g to check period in test string
+
+		
+		var re = /./g;
+
+		var str1 = 'I have a pen. This pen is very good. Do you have a pen?  ';
+
+		console.log(re.test(str1));
+
+		Ans: a) . matches any character (except for line terminators).
+			 b) g modifier: global. All matches (don't return after first match)	
+
+		
+// 
+
+		var re = /learn/;
+
+		var str1 = ' ';
+
+		console.log(re.test(str1));
 
 
 		var re = /learn/;
