@@ -100,4 +100,16 @@ var re = /\Dcar/gm;
 
 		console.log(re.test(str1));	
 
-		Ans: Matchs only first space in the string 
+		Ans: Matchs only first space in the string
+
+	3)  // Match all characters but not spaces or tabs
+
+
+		var re = /\S/gm;
+
+		var str1 = ' This is test string	  with a tab and spaces';
+
+		console.log(re.test(str1)); 
+
+
+		
