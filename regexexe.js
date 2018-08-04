@@ -28,9 +28,9 @@ var re = /\Dcar/gm;
 //  Write a regex to match first occurance of "pen"
 
 
-		var re = /pen/;
+		var re = /\Dpen/;
 
-		var str1 = 'I have a pen  ';
+		var str1 = 'I have a pen. This pen is very good. Do you have a pen? ';
 
 		console.log(re.test(str1));
 
