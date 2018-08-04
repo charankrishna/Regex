@@ -15,7 +15,25 @@ var re = /\Dcar/gm;
 
 		console.log(re.test(str1));
 
-//  
+//  Write a regex which matches all instances of tree or Tree
+
+
+		var re = /tree/gmi;
+
+		var str1 = 'Tree provides us oxygen. I have a tree in my garden. ';
+
+		console.log(re.test(str1));
+
+
+//  Write a regex to match first occurance of "pen"
+
+
+		var re = /pen/;
+
+		var str1 = 'I have a pen  ';
+
+		console.log(re.test(str1));
+
 
 
 		var re = /learn/;
