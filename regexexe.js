@@ -42,7 +42,18 @@ var re = /\Dcar/gm;
 
 		console.log(re.test(str1));
 
-		Ans: ? The preceding token is not quantifiable
+		1)Ans: ? The preceding token is not quantifiable
+
+		
+// 	Write a regex to match "?""
+
+		var re = /[?]/;
+
+		var str1 = 'I have a pen. This pen is very good. Do you have a pen?  ';
+
+		console.log(re.test(str1));
+
+		
 
 
 
