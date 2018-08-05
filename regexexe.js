@@ -347,3 +347,11 @@ var re = /\Dcar/gm;
 		var str1 = 'catch catches patches'
 
 		console.log(re.test(str1));
+
+// 	Write a regex to match actor and actress
+
+		var	re = /\bacto?r?e?s?s?\b/g;
+
+		var str1 = 'actor actress'
+
+		console.log(re.test(str1));
