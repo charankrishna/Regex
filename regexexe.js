@@ -202,3 +202,11 @@ var re = /\Dcar/gm;
 		var str1 = 'petal pedal'
 
 		console.log(re.test(str1));
+
+// 	Write a regex to match 121 122 123 124 125
+
+		var	re = /\d{3}/g;
+
+		var str1 = '121 122 123 124 125'
+
+		console.log(re.test(str1));
