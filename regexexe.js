@@ -166,3 +166,11 @@ var re = /\Dcar/gm;
 		Ans: 45.67
 
 
+//  Write a regex to match new line character 
+
+
+		var	re = /\n/gm;
+
+		var str1 = 'This is year 2018. Last year was 2017.'
+
+		console.log(re.test(str1));
