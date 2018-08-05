@@ -333,8 +333,8 @@ var re = /\Dcar/gm;
 
 // 	Write a regex to match six figure salary
 
-		var	re = /\b[^0-0]+\d{5,}\b/g;
+		var	re = /\b(\d{3,3}|\d{4,4})\b/g;
 
-		var str1 = ' 100 101 121 122 123 124 125 199 500000'
+		var str1 = ' 145 658 258 7854 6589 25 37 123478 45781 25254'
 
 		console.log(re.test(str1));
