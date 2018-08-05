@@ -131,3 +131,13 @@ var re = /\Dcar/gm;
 		var str1 = 'This is year 2018. Last year was 2017.'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match everything in the string without using a-z, 0-9, and '_'
+
+
+ 		var	re = /\w+/gm;
+
+		var str1 = 'file11_123 file11_124 file11_125 ...'
+
+		console.log(re.test(str1));
