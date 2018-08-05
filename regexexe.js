@@ -264,3 +264,13 @@ var re = /\Dcar/gm;
 		var str1 = 'file_1.php file_2.php file_3.php file_4.php file_5.php'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match everything except numbers
+
+
+		var	re = /\w([a-zA-z\d{2,}])/gm;
+
+		var str1 = 'This is year 2018. Last year was 2017. 1 2 3 4 22 25 26 '
+
+		console.log(re.test(str1));
