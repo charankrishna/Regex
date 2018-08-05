@@ -186,3 +186,11 @@ var re = /\Dcar/gm;
 		console.log(re.test(str1));
 
 		Ans: net nt et pet zet
+
+// 	Write a regex to match affect and effect
+
+		var	re = /\b[ae]?ffect\b/g;
+
+		var str1 = 'affect effect'
+
+		console.log(re.test(str1));
