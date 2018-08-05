@@ -338,3 +338,12 @@ var re = /\Dcar/gm;
 		var str1 = ' 145 658 258 7854 6589 25 37 123478 45781 25254'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match catch, catches, and patches
+
+		var	re = /\b[cp]?atche?s?\b/g;
+
+		var str1 = 'catch catches patches'
+
+		console.log(re.test(str1));
