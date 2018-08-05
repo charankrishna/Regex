@@ -322,7 +322,7 @@ var re = /\Dcar/gm;
 		console.log(re.test(str1));
 
 
-// 	Write a regex to match from 101-199
+// 	Write a regex to match from 100-999
 
 		var	re = /\b\d{3,3}\b/g;
 
