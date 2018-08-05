@@ -311,3 +311,12 @@ var re = /\Dcar/gm;
 		var str1 = 'color colour'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match book and books
+
+		var	re = /\bbook?s\b/g;
+
+		var str1 = 'book books'
+
+		console.log(re.test(str1));
