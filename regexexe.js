@@ -302,3 +302,12 @@ var re = /\Dcar/gm;
 		var str1 = 'flavor flavour'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match color and colour
+
+		var	re = /\bcolou?r\b/g;
+
+		var str1 = 'color colour'
+
+		console.log(re.test(str1));
