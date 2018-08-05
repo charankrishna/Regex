@@ -65,7 +65,7 @@ var re = /\Dcar/gm;
 		console.log(re.test(str1));
 
 		Ans: a) . matches any character (except for line terminators).
-			 b) g modifier: global. All matches (don't return after first match)	
+			 b) g modifier: global. All matches (don't return after first match).	
 
 		
 //  Write a regex to match "." in given string
@@ -101,6 +101,7 @@ var re = /\Dcar/gm;
 		console.log(re.test(str1));	
 
 		Ans: Matchs only first space in the string
+
 
 	3)  // Match all characters but not spaces or tabs
 
