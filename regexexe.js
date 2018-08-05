@@ -254,3 +254,13 @@ var re = /\Dcar/gm;
 		var str1 = ' 100 101 121 122 123 124 125 199 200'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match everything in the string 
+
+
+ 		var	re = /\b\w+.php\b/gm;
+
+		var str1 = 'file_1.php file_2.php file_3.php file_4.php file_5.php'
+
+		console.log(re.test(str1));
