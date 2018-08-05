@@ -227,3 +227,12 @@ var re = /\Dcar/gm;
 		var str1 = 'catch hatch'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match house and mouse
+
+		var	re = /\[hm]?ouse\b/g;
+
+		var str1 = 'house mouse'
+
+		console.log(re.test(str1));
