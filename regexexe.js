@@ -68,6 +68,7 @@ var re = /\Dcar/gm;
 			 b) g modifier: global. All matches (don't return after first match).	
 
 		
+							     
 //  Write a regex to match "." in given string
 
 		
