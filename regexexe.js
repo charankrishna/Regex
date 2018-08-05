@@ -355,3 +355,32 @@ var re = /\Dcar/gm;
 		var str1 = 'actor actress'
 
 		console.log(re.test(str1));
+
+// 	Write a regex to match everything in the string 
+
+
+ 		var	re = /\b\w+.html\b/gm;
+
+		var str1 = 'truck.html truck1.html truck2.html'
+
+		console.log(re.test(str1));
+
+
+// 	Write a regex to match everything in the string 
+
+
+ 		var	re = /\b\w+\b/gm;
+
+		var str1 = '1flower 2flower 33flowers'
+
+		console.log(re.test(str1));
+
+
+// 	Write a regex to match everything in the string 
+
+
+ 		var	re = /\bbe+\b/gm;
+
+		var str1 = 'b be bee beee beeee'
+
+		console.log(re.test(str1));
