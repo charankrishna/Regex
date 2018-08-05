@@ -218,3 +218,12 @@ var re = /\Dcar/gm;
 		var str1 = 'jeep leap'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match catch and hatch
+
+		var	re = /\[ch]?atch\b/g;
+
+		var str1 = 'catch hatch'
+
+		console.log(re.test(str1));
