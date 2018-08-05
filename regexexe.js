@@ -222,7 +222,7 @@ var re = /\Dcar/gm;
 
 // 	Write a regex to match catch and hatch
 
-		var	re = /\[ch]?atch\b/g;
+		var	re = /\b[ch]?atch\b/g;
 
 		var str1 = 'catch hatch'
 
@@ -231,8 +231,17 @@ var re = /\Dcar/gm;
 
 // 	Write a regex to match house and mouse
 
-		var	re = /\[hm]?ouse\b/g;
+		var	re = /\b[hm]?ouse\b/g;
 
 		var str1 = 'house mouse'
+
+		console.log(re.test(str1));
+
+
+// 	Write a regex to match catch and hatch
+
+		var	re = /\b[bp]?ana[nm]?a\b/g;
+
+		var str1 = 'banana panama'
 
 		console.log(re.test(str1));
