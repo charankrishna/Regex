@@ -194,3 +194,11 @@ var re = /\Dcar/gm;
 		var str1 = 'affect effect'
 
 		console.log(re.test(str1));
+
+// 	Write a regex to match petal and pedal
+
+		var	re = /\bpe[td]?al\b/g;
+
+		var str1 = 'petal pedal'
+
+		console.log(re.test(str1));
