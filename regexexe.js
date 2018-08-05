@@ -210,3 +210,11 @@ var re = /\Dcar/gm;
 		var str1 = '121 122 123 124 125'
 
 		console.log(re.test(str1));
+
+// 	Write a regex to match jeep and leap
+
+		var	re = /\b[jl]?e[ae]?p\b/g;
+
+		var str1 = 'jeep leap'
+
+		console.log(re.test(str1));
