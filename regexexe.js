@@ -279,8 +279,8 @@ var re = /\Dcar/gm;
 // 	Write a regex to match everything except a-z
 
 
-		var	re = /[A-Z\d{1,}]/gm;
+		var	re = /\b[^0-9]+\w+\b/gm;
 
-		var str1 = 'This is year 2018. Last year was 2017. 1 2 3 4 22 25 26 '
+		var str1 = 'bush1234 '
 
 		console.log(re.test(str1));
