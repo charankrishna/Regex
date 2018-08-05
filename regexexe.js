@@ -141,3 +141,28 @@ var re = /\Dcar/gm;
 		var str1 = 'file11_123 file11_124 file11_125 ...'
 
 		console.log(re.test(str1));
+
+
+// 	Check given regex which match words given below
+
+
+		var re = /.ear/g;
+
+		var str1 = 'par zar near pear deer dear clear car war';
+
+		console.log(re.test(str1));
+
+		Ans: near, pear, dear, clear
+
+// 	Check given regex which match items given below	
+
+
+		var re = /45.67/;
+
+		var str1 = '4567 45.67 45*67 45+67 45-67 45$67';
+
+		console.log(re.test(str1));
+
+		Ans: 45.67
+
+
