@@ -293,3 +293,12 @@ var re = /\Dcar/gm;
 		var str1 = '123alfa '
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match flavor and flavour
+
+		var	re = /\bflavou?r\b/g;
+
+		var str1 = 'flavor flavour'
+
+		console.log(re.test(str1));
