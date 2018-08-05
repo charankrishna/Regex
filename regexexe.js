@@ -245,3 +245,12 @@ var re = /\Dcar/gm;
 		var str1 = 'banana panama'
 
 		console.log(re.test(str1));
+
+
+// 	Write a regex to match from 101-199
+
+		var	re = /\b(1[0-9][1-9])\b/g;
+
+		var str1 = ' 100 101 121 122 123 124 125 199 200'
+
+		console.log(re.test(str1));
