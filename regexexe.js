@@ -113,4 +113,19 @@ var re = /\Dcar/gm;
 
 
 
-// 	Write 
+// 	Write a regex to match all digits in the string without using numbers
+
+
+		var	re = /\d/gm;
+
+		var str1 = 'This is year 2018. Last year was 2017.'
+
+		console.log(re.test(str1));
+
+
+// 	Write a regex to match everything except numbers
+		var	re = /\d/gm;
+
+		var str1 = 'This is year 2018. Last year was 2017.'
+
+		console.log(re.test(str1));
