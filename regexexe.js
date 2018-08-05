@@ -124,7 +124,9 @@ var re = /\Dcar/gm;
 
 
 // 	Write a regex to match everything except numbers
-		var	re = /\d/gm;
+
+
+		var	re = /\D/gm;
 
 		var str1 = 'This is year 2018. Last year was 2017.'
 
