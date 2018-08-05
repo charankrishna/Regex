@@ -384,3 +384,14 @@ var re = /\Dcar/gm;
 		var str1 = 'b be bee beee beeee'
 
 		console.log(re.test(str1));
+
+
+
+// 	Write a regex to match everything in the string 
+
+
+ 		var	re = /'([^']*)'/gm;
+
+		var str1 = "'he has 'won' the 'match' "
+
+		console.log(re.test(str1));
