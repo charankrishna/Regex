@@ -174,3 +174,15 @@ var re = /\Dcar/gm;
 		var str1 = 'This is year 2018. Last year was 2017.'
 
 		console.log(re.test(str1));
+
+
+//	Check the regex to matches which items given below
+
+
+		var	re = /[ne]t/g;
+
+		var str1 = 'neg net nt et pet zet'
+
+		console.log(re.test(str1));
+
+		Ans: net nt et pet zet
