@@ -42,7 +42,7 @@ var re = /\Dcar/gm;
 
 		console.log(re.test(str1));
 
-		1)Ans: ? The preceding token is not quantifiable
+		1)Ans: ? The preceding token is not quantifiable. Escape character
 
 		
 // 	Write a regex to match "?""
@@ -89,7 +89,7 @@ var re = /\Dcar/gm;
 
 // 	Write regex to match all spaces in string but not characters
 
-	1)	var re = /\s/gm;
+	1)	var re = /\b\s\b/gm;
 
 		var str1 = ' This is test string	  with a tab and spaces';
 
@@ -251,7 +251,7 @@ var re = /\Dcar/gm;
 
 // 	Write a regex to match from 101-199
 
-		var	re = /\b(1[0-9][1-9])\b/g;
+		var	re = /\b(1[0-9][1-9]|1[1-9][0-9])\b/g;
 
 		var str1 = ' 100 101 121 122 123 124 125 199 200'
 
@@ -261,7 +261,7 @@ var re = /\Dcar/gm;
 // 	Write a regex to match everything in the string 
 
 
- 		var	re = /\b\w+.php\b/gm;
+ 		var	re = /\bfile_[12345].php\b/gm;
 
 		var str1 = 'file_1.php file_2.php file_3.php file_4.php file_5.php'
 
@@ -335,6 +335,14 @@ var re = /\Dcar/gm;
 
 // 	Write a regex to match six figure salary
 
+		var	re = /\b[^0-0]+\d{5}\b/g;
+
+		var str1 =  '100000'
+
+		console.log(re.test(str1));
+
+// 	Write a regex to match match 3 digit and 4 digit only
+
 		var	re = /\b(\d{3,3}|\d{4,4})\b/g;
 
 		var str1 = ' 145 658 258 7854 6589 25 37 123478 45781 25254'
@@ -361,7 +369,7 @@ var re = /\Dcar/gm;
 // 	Write a regex to match everything in the string 
 
 
- 		var	re = /\b\w+.html\b/gm;
+ 		var	re = /\btruck[12]?.html\b/gm;
 
 		var str1 = 'truck.html truck1.html truck2.html'
 
@@ -381,7 +389,7 @@ var re = /\Dcar/gm;
 // 	Write a regex to match everything in the string 
 
 
- 		var	re = /\bbe+\b/gm;
+ 		var	re = /\b^b|b$|be+|b\b/gm;
 
 		var str1 = 'b be bee beee beeee'
 
