@@ -118,7 +118,7 @@ var re = /\Dcar/gm;
 // 	Write a regex to match all digits in the string without using numbers
 
 
-		var	re = /\b201[78]\b/gm;
+		var	re = /\d/gm;
 
 		var str1 = 'This is year 2018. Last year was 2017.'
 
